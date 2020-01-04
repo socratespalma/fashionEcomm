@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Experimenting with navbars */
+ul {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Hover effect on navbar */
+li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+.active {
+  background-color: orange;
+}
